@@ -21,7 +21,7 @@
     
     
     ZYTextView *textV = [[ZYTextView alloc] initWithFrame:CGRectMake(50, 50, 200, 50)];
-    textV.font = [UIFont systemFontOfSize:20];
+    textV.font = [UIFont systemFontOfSize:30];
     textV.maxHeight = 100;
     textV.layer.borderColor = [UIColor grayColor].CGColor;
     textV.layer.borderWidth = 1;
